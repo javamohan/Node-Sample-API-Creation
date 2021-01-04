@@ -1,0 +1,19 @@
+{
+  "name": "nodecore",
+  "version": "1.0.0",
+  "main": "App.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongod": "^2.0.0",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon WeatherAPI"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
