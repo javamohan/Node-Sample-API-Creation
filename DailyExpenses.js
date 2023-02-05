@@ -9,6 +9,7 @@ con.on('open', ()=>{
 console.log('connection open')
 })
 
+
 app.use(express.json())
 const expenseRoute = require('./router/DailyExpensesRoute')
 app.use('/api/expenses', expenseRoute)
